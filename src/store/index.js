@@ -14,18 +14,30 @@ export default new Vuex.Store({
   },
 
   state: { // = data
+    products: []
 
   },
 
   getters: { // = computed properties
-
+    productsCount () {
+      //return lenght of products array
+    }
   },
 
-  actions,
+  actions: { //same as methods
+    fetchProducts(){
+      //make the call
+    }
+  },
 
-  mutations: {
+  mutations: { //responsible for setting and updating the state
+    setProducts(){
+      //update products
+    }
 
   }
+
+
 })
 
 
